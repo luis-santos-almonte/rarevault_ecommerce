@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rarevault_ecommerce/utils/theme/text_theme.dart';
+import 'package:rarevault_ecommerce/utils/theme/custom_themes/text_theme.dart';
 
 class TAppTheme {
   TAppTheme._();
