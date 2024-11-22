@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rarevault_ecommerce/utils/constants/colors.dart';
 
 class TAppBarTheme {
   TAppBarTheme._();
@@ -9,12 +10,12 @@ class TAppBarTheme {
       scrolledUnderElevation: 0,
       backgroundColor: Colors.transparent,
       surfaceTintColor: Colors.transparent,
-      iconTheme:
-          IconThemeData(color: Color.fromARGB(255, 10, 49, 49), size: 24),
-      actionsIconTheme:
-          IconThemeData(color: Color.fromARGB(255, 10, 49, 49), size: 24),
+      iconTheme: IconThemeData(color: TColors.dark, size: 24),
+      actionsIconTheme: IconThemeData(color: TColors.light, size: 24),
       titleTextStyle: TextStyle(
-          fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.white));
+          fontSize: 18.0,
+          fontWeight: FontWeight.w600,
+          color: TColors.textWhite));
 
   static const darkAppBarTheme = AppBarTheme(
       elevation: 0,
@@ -22,9 +23,10 @@ class TAppBarTheme {
       scrolledUnderElevation: 0,
       backgroundColor: Colors.transparent,
       surfaceTintColor: Colors.transparent,
-      iconTheme:
-          IconThemeData(color: Color.fromARGB(255, 10, 49, 49), size: 24),
-      actionsIconTheme: IconThemeData(color: Colors.white, size: 24),
+      iconTheme: IconThemeData(color: TColors.dark, size: 24),
+      actionsIconTheme: IconThemeData(color: TColors.light, size: 24),
       titleTextStyle: TextStyle(
-          fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.white));
+          fontSize: 18.0,
+          fontWeight: FontWeight.w600,
+          color: TColors.textWhite));
 }

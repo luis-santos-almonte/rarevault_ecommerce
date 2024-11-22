@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rarevault_ecommerce/utils/constants/colors.dart';
 import 'package:rarevault_ecommerce/utils/theme/custom_themes/appbar_theme.dart';
 import 'package:rarevault_ecommerce/utils/theme/custom_themes/bottom_sheet_theme.dart';
 import 'package:rarevault_ecommerce/utils/theme/custom_themes/checkbox_theme.dart';
@@ -15,8 +16,8 @@ class TAppTheme {
       useMaterial3: true,
       fontFamily: 'Poppins',
       brightness: Brightness.light,
-      primaryColor: Color.fromARGB(255, 19, 91, 91),
-      scaffoldBackgroundColor: Colors.white,
+      primaryColor: TColors.primary,
+      scaffoldBackgroundColor: TColors.light,
       textTheme: TTextTheme.lighTextTheme,
       chipTheme: TChipTheme.lightChipTheme,
       appBarTheme: TAppBarTheme.lightAppBarTheme,
@@ -25,13 +26,13 @@ class TAppTheme {
       elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme,
       outlinedButtonTheme: TOutlinedButtonTheme.lightOutlinedButtonTheme,
       inputDecorationTheme: TTextFormFieldTheme.lightInputDecorationTheme);
-      
+
   static ThemeData darkTheme = ThemeData(
       useMaterial3: true,
       fontFamily: 'Poppins',
       brightness: Brightness.dark,
-      primaryColor: Color.fromARGB(255, 19, 91, 91),
-      scaffoldBackgroundColor: Color.fromARGB(255, 10, 49, 49),
+      primaryColor: TColors.primary,
+      scaffoldBackgroundColor: TColors.dark,
       textTheme: TTextTheme.darkTextTheme,
       chipTheme: TChipTheme.darkChipTheme,
       appBarTheme: TAppBarTheme.darkAppBarTheme,
