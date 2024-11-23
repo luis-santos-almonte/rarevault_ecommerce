@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305959473025",
+    "project_id": "rarevault-ecommerce",
+    "storage_bucket": "rarevault-ecommerce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305959473025:android:93063b4567e13f79f72280",
+        "android_client_info": {
+          "package_name": "com.rarevault.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcODkMUDsIU2ajYmGOXgvTQf8zTrwa8KA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
