@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rarevault_ecommerce/utils/constants/colors.dart';
 import 'package:rarevault_ecommerce/utils/theme/theme.dart';
 
 class App extends StatelessWidget {
@@ -7,9 +8,16 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      themeMode: ThemeMode.system,
-      theme: TAppTheme.lightTheme,
-      darkTheme: TAppTheme.darkTheme,
-    );
+        themeMode: ThemeMode.system,
+        theme: TAppTheme.lightTheme,
+        darkTheme: TAppTheme.darkTheme,
+        home: const Scaffold(
+          backgroundColor: TColors.primary,
+          body: Center(
+            child: CircularProgressIndicator(
+              color: Colors.white,
+            ),
+          ),
+        ));
   }
 }
