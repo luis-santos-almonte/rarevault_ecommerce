@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rarevault_ecommerce/utils/constants/colors.dart';
 
 class TTextFormFieldTheme {
   TTextFormFieldTheme._();
@@ -39,12 +40,10 @@ class TTextFormFieldTheme {
 
   static InputDecorationTheme darkInputDecorationTheme = InputDecorationTheme(
     errorMaxLines: 3,
-    prefixIconColor: Colors.grey,
-    suffixIconColor: Colors.grey,
-    labelStyle: const TextStyle()
-        .copyWith(fontSize: 14, color: Color.fromARGB(255, 10, 49, 49)),
-    hintStyle: const TextStyle()
-        .copyWith(fontSize: 14, color: Color.fromARGB(255, 10, 49, 49)),
+    prefixIconColor: TColors.darkGrey,
+    suffixIconColor: TColors.darkGrey,
+    labelStyle: const TextStyle().copyWith(fontSize: 14, color: TColors.dark),
+    hintStyle: const TextStyle().copyWith(fontSize: 14, color: TColors.dark),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
     floatingLabelStyle:
         const TextStyle().copyWith(color: Colors.white.withOpacity(0.8)),

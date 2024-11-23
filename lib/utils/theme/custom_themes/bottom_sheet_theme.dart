@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:rarevault_ecommerce/utils/constants/colors.dart';
 
 class TBottomSheetTheme {
   TBottomSheetTheme._();
 
   static BottomSheetThemeData lightBottomSheetTheme = BottomSheetThemeData(
       showDragHandle: true,
-      backgroundColor: Colors.white,
-      modalBackgroundColor: Colors.white,
+      backgroundColor: TColors.light,
+      modalBackgroundColor: TColors.lightContainer,
       constraints: const BoxConstraints(minWidth: double.infinity),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)));
 
   static BottomSheetThemeData darkBottomSheetTheme = BottomSheetThemeData(
       showDragHandle: true,
-      backgroundColor: Color.fromARGB(255, 10, 49, 49),
-      modalBackgroundColor: Color.fromARGB(255, 10, 49, 49),
+      backgroundColor: TColors.dark,
+      modalBackgroundColor: TColors.darkContainer,
       constraints: const BoxConstraints(minWidth: double.infinity),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)));
 }

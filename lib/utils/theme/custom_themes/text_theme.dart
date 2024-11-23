@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rarevault_ecommerce/utils/constants/colors.dart';
 
 class TTextTheme {
   TTextTheme._();
@@ -8,49 +9,49 @@ class TTextTheme {
       headlineLarge: const TextStyle().copyWith(
           fontSize: 32.0,
           fontWeight: FontWeight.bold,
-          color: Color.fromARGB(255, 10, 49, 49)),
+          color: TColors.textPrimary),
       headlineMedium: const TextStyle().copyWith(
           fontSize: 24.0,
           fontWeight: FontWeight.w600,
-          color: Color.fromARGB(255, 10, 49, 49)),
+          color: TColors.textPrimary),
 
       //TITLE FONTS
       titleLarge: const TextStyle().copyWith(
           fontSize: 16.0,
           fontWeight: FontWeight.w600,
-          color: Color.fromARGB(255, 10, 49, 49)),
+          color: TColors.textPrimary),
       titleMedium: const TextStyle().copyWith(
           fontSize: 16.0,
           fontWeight: FontWeight.w500,
-          color: Color.fromARGB(255, 10, 49, 49)),
+          color: TColors.textPrimary),
       titleSmall: const TextStyle().copyWith(
           fontSize: 16.0,
           fontWeight: FontWeight.w400,
-          color: Color.fromARGB(255, 10, 49, 49)),
+          color: TColors.textPrimary),
 
       //BODY FONTS
       bodyLarge: const TextStyle().copyWith(
           fontSize: 14.0,
           fontWeight: FontWeight.w500,
-          color: Color.fromARGB(255, 10, 49, 49)),
+          color: TColors.textPrimary),
       bodyMedium: const TextStyle().copyWith(
           fontSize: 14.0,
           fontWeight: FontWeight.normal,
-          color: Color.fromARGB(255, 10, 49, 49)),
+          color: TColors.textPrimary),
       bodySmall: const TextStyle().copyWith(
           fontSize: 14.0,
           fontWeight: FontWeight.w500,
-          color: Color.fromARGB(128, 10, 49, 49)),
+          color: TColors.textSecondary),
 
       //LABEL FONTS
       labelLarge: const TextStyle().copyWith(
           fontSize: 12.0,
           fontWeight: FontWeight.normal,
-          color: Color.fromARGB(255, 10, 49, 49)),
+          color: TColors.textPrimary),
       labelMedium: const TextStyle().copyWith(
           fontSize: 12.0,
           fontWeight: FontWeight.normal,
-          color: Color.fromARGB(128, 10, 49, 49)));
+          color: TColors.textSecondary));
 
   static TextTheme darkTextTheme = TextTheme(
       //HEADLINE FONTS
